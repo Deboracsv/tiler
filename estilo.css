@@ -58,10 +58,19 @@ body {
   }
 
   .primeira-fileira {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+  }
+
+  .segunda-fileira {
+    margin-top: 70px ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
   }
   
  .book{
@@ -69,6 +78,7 @@ body {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: center;
+  
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   width: 200px;
  }
@@ -78,7 +88,7 @@ body {
   height: auto;
  }
  .button {
-      margin-top: 10px;
+      margin-top: 20px;
       padding: 10px;
       background-color: #29a8df;
       color: white;
@@ -93,5 +103,6 @@ body {
       top: 50%;
       transform: translateY(-50%);
       font-weight: bold;
-      font-size: 18px;
+      font-size: 50px;
+      
  }
