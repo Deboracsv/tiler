@@ -5,7 +5,21 @@ body{
     background-color: #1c1c1c;
   }
   
+/* Para tablets */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 15px;
+  }
+}
 
+/* Para celulares */
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
 
   .cabecalho {
     background: url('./imagens/desktop.jpg') no-repeat center center/cover;
@@ -128,6 +142,11 @@ body{
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   }
 
+  a {
+    font-style:normal;
+    text-decoration: none;
+    color: #ffffff;
+  }
 
 
  .faixa-footer {
